@@ -9,7 +9,7 @@
 			<xmljson expandableProperties="d e" forceTopLevelObject="true" id="xmljsonWithOptions" removeNamespacePrefixes="true"
 				rootName="newRoot" skipNamespaces="true" trimSpaces="true" />
 		</dataFormats>
-		<restConfiguration component="undertow" host="localhost" port="8080"/>
+		<restConfiguration component="undertow" host="localhost" port="8778"/>
         <rest path="/rest1">
 			<post uri="/xmltojson">
 				<to uri="direct:createData"/>
