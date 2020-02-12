@@ -16,7 +16,7 @@
 
         <!-- configure the Fuse version you want to use here -->
         <fuse.bom.version>7.5.0.fuse-750029-redhat-00002</fuse.bom.version>
-<run.jvmArguments>-Dfile.encoding=UTF-8</run.jvmArguments>
+	<run.jvmArguments>-Dfile.encoding=UTF-8</run.jvmArguments>
     </properties>
 
     <dependencyManagement>
